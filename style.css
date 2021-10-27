@@ -43,7 +43,11 @@ a:hover{
   border-radius: 150px;
   margin-top: 30px;
   border: 2px solid white;
-  box-shadow:0 0px 15px rgba(3, 0, 63, 1) ;
+  box-shadow:0 0px 15px rgba(3, 0, 63, 1);
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .list{
